@@ -1,0 +1,454 @@
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Badea Alamidi</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<h1><a href="#one" class="scrolly">Badea Alamidi</a></h1>
+					<p><a class="scrolly" href="#one">Programmer | Software Developer | Creator <br />See below for some of my favorite projects:</a></p>
+				</div>
+				<ul class="actions">
+					<li>
+						<a href="#seven" class="scrolly fa-chevron-down icon button">View website projects</a>
+					</li>
+				</ul>
+				<!-- <div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div> -->
+			</header>
+			
+		<!-- One -->
+		<section id="one" class="wrapper style2 special">
+			<header class="major">
+				<h2>RISC-V simulator/emulator:</h2>
+			</header>
+			<ul class="icons major">
+				<!-- <li><span class="icon solid fa-camera-retro"><span class="label">Shoot</span></span></li>
+					<li><span class="icon solid fa-sync"><span class="label">Process</span></span></li>
+					<li><span class="icon solid fa-cloud"><span class="label">Upload</span></span></li> -->
+				</ul>
+		</section>
+			
+			<!-- Two -->
+		<section id="two" class="wrapper">
+			<div class="inner alt">
+				<section class="spotlight" id="first-section">
+					<div class="image">
+						<!-- <img src="images/pic01.jpg" alt="" /> -->
+						<script id="asciicast-513575" src="https://asciinema.org/a/513575.js" async></script>
+					</div>
+					<div class="content">
+						<h3>Test run:</h3>
+						<p>This recording showcases the RISC-V simulator running a simple assembly program
+							, which was provided to stress the simulator by running a large amount of instructions.
+							I ran the simulator with the -i flag in order to print the instruction that
+							is being pointed to by the program counter. Try to pause the recording to see the
+							manipulations that are being done to the different registers and memory storage.</p>
+					</div>
+				</section>
+				<section class="spotlight" id="second-section">
+					<div class="image">
+						<!-- <img src="images/pic02.jpg" alt="" /> -->
+						<script id="asciicast-513576" src="https://asciinema.org/a/513576.js" async></script>
+					</div>
+					<div class="content">
+						<h3>Results:</h3>
+						<p>This recording is showcasing the results of running the same application as last time,
+							only this time, I dump the contents of the memory rather than show which instruction 
+							is being run. Do you see the message at the very end of the memory dump? We can finally
+							see a use for running 140071705662321 instructions after all...
+						</p>
+					</div>
+				</section>
+				<!-- <section class="spotlight">
+					<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+					<div class="content">
+						<h3>Aliquam sed magna</h3>
+						<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+					</div>
+				</section> -->
+				<!-- <section class="special">
+					<ul class="icons labeled">
+						<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum lorem accumsan</span></span></li>
+						<li><span class="icon solid fa-sync"><span class="label">Sed vehicula elementum</span></span></li>
+						<li><span class="icon solid fa-cloud"><span class="label">Elit fusce consequat</span></span></li>
+						<li><span class="icon solid fa-code"><span class="label">Lorem nullam tempus</span></span></li>
+						<li><span class="icon solid fa-desktop"><span class="label">Adipiscing amet sapien</span></span></li>
+					</ul>
+				</section> -->
+			</div>
+		</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style2">
+				<header class="major">
+					<h2>Marching Cubes:</h2>
+					<p>As a programmer, I was responsible for establishing a 3D space, reading in threshold
+						values, and using those values as I iterate over the 3D space, voxel by voxel, to assign
+						a deterministic simple shape to the current voxel.
+						<a href="https://dl.acm.org/doi/pdf/10.1145/37401.37422">
+							 Click here if you're interested in learning more (skip to 2nd page)
+						</a><br />
+						The voxels, when viewed all together on a 3D - renderer, will represent the mesh that is 
+						described in the input file.<br/>
+						This algorithm is used in the medical field to draw three-dimensional surfaces
+						 of the patient's internal injury</p>
+				</header>
+				<!-- <ul class="actions special">
+					<li><a href="#" class="button primary icon solid fa-download">Download</a></li>
+					<li><a href="#" class="button">Learn More</a></li>
+				</ul> -->
+			</section>
+
+		<!-- Four -->
+		
+			<section id="four" class="wrapper">
+				<div class="inner alt">
+					<section class="spotlight" id="third-section">
+						<div class="image">
+							<video controls >
+								<source src="./videos/2022-08-10 15-57-50_1.webm" type="video/webm">
+							</video>
+						</div>
+						<div class="content">
+							<p>
+								The big moment in this video is @00:20, when the marchingcubes program is run. It outputs a polyset.rd file
+								for the renderer to display. The input file in this demo, mc1.dat,
+								3 space-seperated integer values that tell the program the size of 
+								the spread 3D array, followed by the values of the 3D array in their hexadeciaml format.
+							</p>
+						</div>
+					</section>
+					<section class="spotlight" id="fourth-section">
+						<div class="image">
+						<!-- <img src="images/pic02.jpg" alt="" /> -->
+						</div>
+						<div class="content">
+							Here we see the result of the same file but with a different threshold.
+						</div>
+					</section>
+				</div>
+			</section>
+			<section id="five" class="wrapper style2">
+				<header class="major">
+					<h2>Fractal Terrains</h2>
+					<p>The following is a C++ implementation of <a href="./assets/voss.pdf">Richard Voss' algorithm </a> for creating fractal terrains
+						<br/> The program accepts a seed for randomization and calculates fractal dimensions 
+						to generate z values that represent realistic looking terrains when used for a 2D grid.
+					</p>
+				</header>
+			</section>
+			<section id = "six" class="wrapper">
+				<div class="inner alt">
+					
+					<div class="content">
+						Using the same aproach for calculating per-vertex normals from marchingcubes, I tried to calculate normal vectors to make the terrain look smoother... 
+						I wonder if my eyes are fooling me into thinking that these normals are okay.
+					</div>
+					<section class="spotlight" id="fifth-section">
+						<div class="image">
+							<img src="/images/gradients.png" alt="" />
+						</div>
+						<div class="image" id="surfaceNormalsImg">
+							<img src="/images/surfaceNormals.png" alt="" />
+						</div>
+					</section>
+					<div class="content">
+						Showing a few more samples:
+					</div>
+					<section class="spotlight" id="sixth-section">
+						<div class="image">
+							<img src="/images/sample1.png" alt="" />
+						</div>
+						<div class="image">
+							<img src="/images/sample2.png" alt="" />
+						</div>
+						<div class="image">
+							<img src="/images/sample3.png" alt="" />
+						</div>
+					</section>
+				</div>
+			</section>
+			<section id="seven" class="wrapper style2">
+				<header class="major">
+					<h2>Athenaeum</h2>
+					<p>A library web application that uses svelte/sveltekit for the
+						front-end and node/express for the back-end. There is a lot of 
+						emphasis on database querying (with sequelize and sqlite), but <a href="https://github.com/BadeaAlamidi/athenaeum/tree/development">expoloring
+						and making use of the aforementioned technologies is the primary goal of
+						this web application.</a>
+					</p>
+				</header>
+			</section>
+			<section id="eight" class="wrapper ">
+				<div class="inner alt">
+					<section class="spotlight" id="seventh-section">
+						<div class="image">
+							<img src="/images/Athenaeum.png" alt="" />
+						</div>
+					</section>
+					<section class="spotlight" id="eigth-section">
+						<div class="content">
+							Starting off, the first thing we notice is that it could use some CSS.
+							Rest assured, I am currently trying to figure out a good theme for the
+							website as I aimlessly throw different CSS rules to each svelte component. 
+							<sub>I hope I don't forget to update this in the future</sub>
+						</div>
+					</section>
+					<section class="spotlight" id="ninth-section">
+						<div class="image">
+							<img alt="picture of tag-search bar" src="./images/tags.png"></img>
+						</div>
+						<div class="content">
+							<h3>Search Feature:</h3>
+							<p>
+								For this project, I've been primarily focusing on implementing a tag-search feature
+								that compliments the schema of the website's database. In my attempt to work with the ORM
+								(sequelize), I also had to put a lot of work into making the feature intuitive for the average
+								user
+							</p>
+						</div>
+					</section>
+					<section class="spotlight" id="tenth-section">
+						<div class="image">
+							<img src="./images/authTag.png" alt="picture of a tag filter and an author filter together">
+						</div>
+						<div class="content">
+							A challenge arises when filtering books using a <a href="http://howto.philippkeller.com/2005/04/24/Tags-Database-schemas/#:~:text=tags%20per%20bookmark.-,%E2%80%9Ctoxi%E2%80%9D%20solution,-Toxi%20came%20up">
+								toxi solution for the schema
+							</a>
+							(a many to many relationship between books and tags created by a junction table):
+							What if the authors are put not as tags, but are stored in a seperate authors table 
+							that has the same kind of relationship between tags and books (many authors also belong
+							to many books).
+						</div>
+					</section>
+					<section class="spotlight" id="eleventh-section">
+						There is a lot to talk about when it comes to this project. The biggest topics that come to my mind
+						are containerization, normalization, CRUD operations, "REST" api, and that's not to include the process
+						and the practices of front-end design.
+					</section>
+				</div>
+			</section>
+			<section id = "nine" class="wrapper style2 ">
+				<header class="major">
+					<h2>React Blog</h2>
+					<p>
+						As the name implies, this project is a social media platform (almost), created using 
+						<a href="https://github.com/BadeaAlamidi/MERN-tutorial">react</a> and <a href="https://github.com/BadeaAlamidi/MERN-Server">expressJS</a> <br/>This project was also created to explore and showcase common technologies such as
+						mongoDB, Redux, and authorization with JWT.
+					</p>
+				</header>
+			</section>
+			<section id="ten" class="wrapper">
+				<div class="inner alt">
+					<section class="spotlight" id="twelfth">
+						<div class="image">
+							<img src="./images/MERN.png" alt="front page of MERN website">
+						</div>
+						<div class="content">
+							<h3>Single Page...</h3>
+							<p>
+								Unlike Athenaeum, this website is comprised of this single page.
+								The DOM gets overhauled as the user interacts with interactable 
+								elements. As a single page-application, we have the luxury of 
+								manipulating the DOM however we want visually.
+							</p>
+						</div>
+					</section>
+					<section class="spotlight" id="thirteenth">
+						<div class="image">
+							<img src="./images/MERN3.png" alt="login picture">
+						</div>
+						<div class="content">
+							<h3>Authentication:</h3>
+							<p>
+								bcrypt is used to hash and compare the form data that is provided by 
+								the user. Once that is done, the client recieves a signature from jwt
+								(or, if a google account was used, a different token will be returned
+								for the server to decode)
+							</p>
+						</div>
+					</section>
+					<section class="spotlight" id="fourteenth">
+						<div class="image">
+							<img src="./images/MERN2.png" alt="">
+						</div>
+						<div class="content">
+							After authenticating, the user will be Authorized to to create, edit or delete 
+							their own posts
+						</div>
+					</section>
+				</div>
+			</section>
+			<section id="eleven" class="wrapper style2">
+				<h2>
+					<a href="https://github.com/BadeaAlamidi/BulkyBookWeb"> Principal, Identities, and Claims</a> <br/>
+					The used technologies for this project include Razor pages, .NET6 C#10, and EFcore
+				</h2>
+				<p>
+					The following is another website that emphasises authentication and authorization. Only this 
+					time, I use Visual Studio to create the ASP.NET 6 MVC template.
+				</p>
+			</section>
+			<section class="wrapper" id="twelve">
+				<div class="inner alt">
+					<section class="spotlight" id="fifteenth">
+						<div class="image">
+							<img src="./images/ASPLogin.png" alt="login page of asp website">
+						</div>
+						<div class="content">
+							ASP.NET comes with a configured state that tells the server 
+							if the client is authenticated. If not, they're redirected to the login 
+							page.
+						</div>
+					</section>
+					<section class="spotlight" id="fifteenth">
+						<div class="image">
+							<img src="./images/ASPCreate.png" alt="create page of asp website">
+						</div>
+						<div class="content">
+							Once a user is logged in, they can visit other pages and interact with the 
+							database if their identity possesses the required claims
+						</div>
+					</section>
+				</div>
+			</section>
+			<!-- <section>
+				<h4>Buttons</h4>
+				<ul class="actions">
+					<li><a href="#" class="button primary">Primary</a></li>
+					<li><a href="#" class="button">Default</a></li>
+				</ul>
+				<ul class="actions">
+					<li><a href="#" class="button large">Large</a></li>
+					<li><a href="#" class="button">Default</a></li>
+					<li><a href="#" class="button small">Small</a></li>
+				</ul>
+				<ul class="actions fit">
+					<li><a href="#" class="button fit">Fit</a></li>
+					<li><a href="#" class="button primary fit">Fit</a></li>
+					<li><a href="#" class="button fit">Fit</a></li>
+				</ul>
+				<ul class="actions fit small">
+					<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+					<li><a href="#" class="button fit small">Fit + Small</a></li>
+					<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+				</ul>
+				<ul class="actions">
+					<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+					<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+				</ul>
+				<ul class="actions">
+					<li><span class="button primary disabled">Disabled</span></li>
+					<li><span class="button disabled">Disabled</span></li>
+				</ul>
+			</section>
+
+					<section>
+						<h4>Form</h4>
+						<form method="post" action="#">
+							<div class="row gtr-uniform">
+								<div class="col-6 col-12-xsmall">
+									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+								</div>
+								<div class="col-12">
+									<select name="demo-category" id="demo-category">
+										<option value="">- Category -</option>
+										<option value="1">Manufacturing</option>
+										<option value="1">Shipping</option>
+										<option value="1">Administration</option>
+										<option value="1">Human Resources</option>
+									</select>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+									<label for="demo-priority-low">Low</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-normal" name="demo-priority">
+									<label for="demo-priority-normal">Normal</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="demo-priority-high" name="demo-priority">
+									<label for="demo-priority-high">Hhigh</label>
+								</div>
+								<div class="col-6 col-12-small">
+									<input type="checkbox" id="demo-copy" name="demo-copy">
+									<label for="demo-copy">Email me a copy</label>
+								</div>
+								<div class="col-6 col-12-small">
+									<input type="checkbox" id="demo-human" name="demo-human" checked>
+									<label for="demo-human">Not a robot</label>
+								</div>
+								<div class="col-12">
+									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</section>
+
+					<section>
+						<h4>Image</h4>
+						<h5>Fit</h5>
+						<div class="box alt">
+							<div class="row gtr-uniform">
+								<div class="col-12"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+							</div>
+						</div>
+						<h5>Left &amp; Right</h5>
+						<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+					</section>
+
+				</div>
+			</section> -->
+		
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://github.com/BadeaAlamidi" class="icon brands fa-github"><span class="label">Instagram</span></a></li>
+				</ul>
+				<p class="copyright">Template: <a href="http://html5up.net">HTML5 UP</a></p>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
