@@ -3681,7 +3681,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		/* background-image: url("images/overlay.png"), url("images/pattern-size1.svg"); */
-		background-image: url("images/IMG_2653.png");
+		background-image: url("images/IMG_2653blurred.png");
 		/* background-position: top left, center center; */
 		/* background-attachment: fixed, fixed; */
 		background-size: cover;
@@ -3951,7 +3951,7 @@ input, select, textarea {
 
 			#header {
 				/* background-image: url("images/overlay.png"), url("images/pattern-size2.svg"); */
-				background-image: url("images/IMG_2653.png");
+				background-image: url("images/IMG_2653blurred.png");
 			}
 
 		}
@@ -4003,7 +4003,7 @@ input, select, textarea {
 
 			#header {
 				/* background-image: url("images/overlay.png"), url("images/pattern-size3.svg"); */
-				background-image: url("images/IMG_2653.png");
+				background-image: url("images/IMG_2653blurred.png");
 			}
 
 				#header h1 {
